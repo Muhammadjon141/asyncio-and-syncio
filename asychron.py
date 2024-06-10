@@ -32,8 +32,7 @@ async def task7():
 async def task8():
     await asyncio.sleep(1)
     print("Task 8")
-
-
+    
 async def main():
     await asyncio.gather(task1(), task2(), task3(), task4(), task5(), task6(), task7(), task8())
 
@@ -45,4 +44,4 @@ if __name__ == "__main__":
     print("So'ngi vaqt", datetime.now())
     print("Asynchronda shuncha vaqt ketdi", datetime2 - datetime1)
 
-# Asychronda ko'rishimiz mumkinki 1 sekund oldi    
+# Asychronda ko'rishimiz mumkinki 1 sekund oldi
